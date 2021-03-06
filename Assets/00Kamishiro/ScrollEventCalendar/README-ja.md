@@ -1,4 +1,4 @@
-# VRCSDK3 Udon用 スクロールイベントカレンダー# VRCSDK3 Udon用 スクロールイベントカレンダー
+# VRCSDK3 Udon用 スクロールイベントカレンダー
 ![HeaderImage](https://s2.booth.pm/b2209dbe-e926-43e3-ba9e-c8fe82d00574/i/2764234/0f50c7ee-b9bd-4a71-8222-0bfb97f44e5b_base_resized.jpg)
 
 version 1.0.3  
@@ -56,7 +56,7 @@ version 1.0.3
 [Vket: 神城工業][92]  
 [Github: 神城アオイ][93]  
 
-[00]:https://github.com/AoiKamishiro/VRChatUdon_ScrollEventCalendar/blob/publish/Assets/00Kamishiro/ScrollEventCalendar/README-en.md
+[00]:https://github.com/AoiKamishiro/VRChatUdon_ScrollEventCalendar/blob/master/Assets/00Kamishiro/ScrollEventCalendar/README-en.md
 [01]:https://twitter.com/aoi3192
 [02]:https://twitter.com/posaca_ere
 [11]:https://sites.google.com/view/vrchat-event
