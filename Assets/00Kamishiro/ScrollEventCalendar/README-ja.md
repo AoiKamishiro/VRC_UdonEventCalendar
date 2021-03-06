@@ -54,7 +54,7 @@ version 1.0.3
 [Vket: 神城工業][92]  
 [Github: 神城アオイ][93]  
 
-[00]:https://github.com/AoiKamishiro/VRChatUdon_ScrollEventCalendar/blob/publish/Assets/00Kamishiro/ScrollEventCalendar/README-en.md
+[00]:https://github.com/AoiKamishiro/VRChatUdon_ScrollEventCalendar/blob/master/Assets/00Kamishiro/ScrollEventCalendar/README-en.md
 [01]:https://twitter.com/aoi3192
 [02]:https://twitter.com/posaca_ere
 [11]:https://sites.google.com/view/vrchat-event
