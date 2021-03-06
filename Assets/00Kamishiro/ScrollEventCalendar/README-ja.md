@@ -1,4 +1,4 @@
-# VRCSDK3 Udon用 スクロールイベントカレンダー# VRCSDK3 Udon用 スクロールイベントカレンダー
+# VRCSDK3 Udon用 スクロールイベントカレンダー
 ![HeaderImage](https://s2.booth.pm/b2209dbe-e926-43e3-ba9e-c8fe82d00574/i/2764234/0f50c7ee-b9bd-4a71-8222-0bfb97f44e5b_base_resized.jpg)
 
 version 1.0.3  
