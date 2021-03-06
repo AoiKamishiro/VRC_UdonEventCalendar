@@ -6,6 +6,7 @@ Illustration and design: Posaka Ere ([@posaca_ere][02])
 
 ## Overview
 This is an asset to display [VRChat Event Calendar][11] in VRChat. Many events can be displayed by implementing a scroll bar. Also, by implementing the reload button, the latest calendar can be loaded at any time.  
+[Sample World][12]  
 
 ## Download
 Please download the latest version from the [Release][21] page.  
@@ -54,6 +55,7 @@ The design, color scheme, and header image were done by Posaca Ere ([@posaca_ere
 [01]:https://twitter.com/aoi3192
 [02]:https://twitter.com/posaca_ere
 [11]:https://sites.google.com/view/vrchat-event
+[12]:https://vrchat.com/home/world/wrld_7540f98a-df30-477f-8af3-2868ffec0863
 [21]:https://github.com/AoiKamishiro/VRChatUdon_ScrollEventCalendar/releases
 [61]:LICENSE-MIT.txt
 [71]:https://booth.pm/ja/items/1223535
