@@ -1,5 +1,5 @@
 # Scrolling event calendar for VRCSDK3 Udon
-version 1.0.3
+version 1.0.4
 
 Created and operated by Aoi Kamishiro ([@aoi3192][01])  
 Illustration and design: Posaka Ere ([@posaca_ere][02])  

@@ -97,7 +97,7 @@
 
     half3 Albedo(float4 texcoords)
     {
-        half3 albedo = (isLoading(_MainTex)?tex2D(_Loading, texcoords.xy).rgb: tex2D(_MainTex, scalUV(texcoords.xy, _Scroll)).rgb) * _Color.rgb;
+        half3 albedo = (isLoaded(_MainTex)? tex2D(_MainTex, scrollUV(texcoords.xy, _Scroll)).rgb: tex2D(_Loading, texcoords.xy).rgb) * _Color.rgb;
         #if _DETAIL
             #if (SHADER_TARGET < 30)
                 // SM20: instruction count limitation
@@ -208,7 +208,7 @@
         #ifndef _EMISSION
             return 0;
         #else
-            return(isLoading(_EmissionMap)?tex2D(_Loading, uv).rgb: tex2D(_EmissionMap, scalUV(uv, _Scroll)).rgb) * _EmissionColor.rgb;
+            return(isLoaded(_EmissionMap)? tex2D(_EmissionMap, scrollUV(uv, _Scroll)).rgb: tex2D(_Loading, uv).rgb) * _EmissionColor.rgb;
         #endif
     }
 

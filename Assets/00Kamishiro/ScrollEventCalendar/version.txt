@@ -1,1 +1,1 @@
-ScrollEventCalendar v1.0.1
+ScrollEventCalendar v1.0.4

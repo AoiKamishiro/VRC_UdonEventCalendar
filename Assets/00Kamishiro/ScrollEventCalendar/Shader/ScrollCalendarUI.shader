@@ -13,7 +13,7 @@ Shader "Kamishiro/ScrollCalendar/UI"
     Properties
     {
         [PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" { }
-        _Loading ("Loading Texture", 2D) = "white" { }
+        [NoScaleOffset] _Loading ("Loading Texture", 2D) = "white" { }
         _Color ("Tint", Color) = (1, 1, 1, 1)
 
         _StencilComp ("Stencil Comparison", Float) = 8
@@ -69,6 +69,7 @@ Shader "Kamishiro/ScrollCalendar/UI"
                 float4 vertex: POSITION;
                 float4 color: COLOR;
                 float2 texcoord: TEXCOORD0;
+                float2 texcoord1: TEXCOORD1;
                 UNITY_VERTEX_INPUT_INSTANCE_ID
             };
 
@@ -77,6 +78,7 @@ Shader "Kamishiro/ScrollCalendar/UI"
                 float4 vertex: SV_POSITION;
                 fixed4 color: COLOR;
                 float2 texcoord: TEXCOORD0;
+                float2 texcoord1: TEXCOORD2;
                 float4 worldPosition: TEXCOORD1;
                 UNITY_VERTEX_OUTPUT_STEREO
             };
@@ -99,6 +101,7 @@ Shader "Kamishiro/ScrollCalendar/UI"
                 OUT.vertex = UnityObjectToClipPos(OUT.worldPosition);
 
                 OUT.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
+                OUT.texcoord1 = TRANSFORM_TEX(v.texcoord1, _Loading);
 
                 OUT.color = v.color * _Color;
                 return OUT;
@@ -106,7 +109,7 @@ Shader "Kamishiro/ScrollCalendar/UI"
 
             fixed4 frag(v2f IN): SV_Target
             {
-                half4 color = isLoading(_MainTex)?tex2D(_Loading, IN.texcoord): tex2D(_MainTex, scalUV(IN.texcoord, _Scroll));
+                half4 color = isLoaded(_MainTex)? tex2D(_MainTex, scrollUV(IN.texcoord, _Scroll)): tex2D(_Loading, IN.texcoord1);
 
                 #ifdef UNITY_UI_CLIP_RECT
                     color.a *= UnityGet2DClipping(IN.worldPosition.xy, _ClipRect);

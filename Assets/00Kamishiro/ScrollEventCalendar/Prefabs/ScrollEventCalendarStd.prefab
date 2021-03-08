@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: 1151e296defe81e4ebf936baae1eac57, type: 2}
-  m_Color: {r: 0.47058824, g: 0.47058824, b: 0.47058824, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -219,7 +219,6 @@ GameObject:
   - component: {fileID: 7094722890652183602}
   - component: {fileID: 7094722890652183603}
   - component: {fileID: 7094722890652183564}
-  - component: {fileID: 5334804786380760445}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -332,21 +331,6 @@ MonoBehaviour:
           m_StringArgument: ReSync
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5334804786380760445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7094722890652183565}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 0.5, y: -0.5}
-  m_UseGraphicAlpha: 1
 --- !u!1 &7094722890734308408
 GameObject:
   m_ObjectHideFlags: 0
@@ -405,7 +389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: bc4bc1bc94c7f9f40ad91b62c7175d5c, type: 2}
-  m_Color: {r: 0.47058824, g: 0.47058824, b: 0.47058824, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -667,4 +651,4 @@ MonoBehaviour:
   targetMaterialProperty: 
   aspectRatio: 2
   targetAudioSources: []
-  maximumResolution: 4096
+  maximumResolution: 8192

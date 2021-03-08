@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1823912094819687684}
   - component: {fileID: 1823912094819687691}
   - component: {fileID: 1823912094819687690}
-  - component: {fileID: 8984749447658071911}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -125,21 +124,6 @@ MonoBehaviour:
           m_StringArgument: ReSync
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &8984749447658071911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1823912094819687689}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 0.5, y: -0.5}
-  m_UseGraphicAlpha: 1
 --- !u!1 &1823912095202730273
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,7 +207,7 @@ MonoBehaviour:
   targetMaterialProperty: 
   aspectRatio: 2
   targetAudioSources: []
-  maximumResolution: 4096
+  maximumResolution: 8192
 --- !u!1 &1823912095415251076
 GameObject:
   m_ObjectHideFlags: 0

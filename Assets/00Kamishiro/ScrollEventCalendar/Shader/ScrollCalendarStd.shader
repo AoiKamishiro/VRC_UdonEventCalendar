@@ -54,7 +54,7 @@ Shader "Kamishiro/ScrollCalendar/Standard"
         [HideInInspector] _DstBlend ("__dst", Float) = 0.0
         [HideInInspector] _ZWrite ("__zw", Float) = 1.0
 
-        _Loading ("Loaading", 2D) = "white" { }
+        _Loading ("Loading", 2D) = "white" { }
         _Scroll ("Scroll", Range(0, 1)) = 0
     }
 

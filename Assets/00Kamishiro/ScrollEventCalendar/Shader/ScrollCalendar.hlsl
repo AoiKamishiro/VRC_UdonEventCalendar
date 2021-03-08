@@ -4,7 +4,7 @@
 * This code is provided under the MIT license.
 */
 
-float2 scalUV(float2 uv ,float scrollVal)
+float2 scrollUV(float2 uv, float scrollVal)
 {
     float scroll = scrollVal * 1.274;
     float header = 1 - (float)53 / (float)3508;
@@ -53,7 +53,7 @@ float2 scalUV(float2 uv ,float scrollVal)
     }
 }
 
-bool isLoading(sampler2D mainTex)
+bool isLoaded(sampler2D mainTex)
 {
-    return(tex2D(mainTex, float2(0, 0))).a - 0.001 < 0;
+    return(tex2D(mainTex, float2(0, 0))).rgb - 0.001 > 0;
 }
