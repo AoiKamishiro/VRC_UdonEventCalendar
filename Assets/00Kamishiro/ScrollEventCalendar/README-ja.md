@@ -1,7 +1,7 @@
 # VRCSDK3 Udon用 スクロールイベントカレンダー
 ![HeaderImage](https://s2.booth.pm/b2209dbe-e926-43e3-ba9e-c8fe82d00574/i/2764234/0f50c7ee-b9bd-4a71-8222-0bfb97f44e5b_base_resized.jpg)
 
-version 1.0.4  
+version 1.0.4 
 
 [English Readme][00]
 
@@ -16,7 +16,7 @@ version 1.0.4
 [リリース][21]ページより最新版のダウンロードをお願いします。  
 
 ## 導入方法
-1. 事前に、VrCSDK3 と UdonSharp の最新版のインポートをしてください。
+1. 事前に、VRCSDK3 と UdonSharp の最新版のインポートをしてください。
 2. EventSystem がシーン上に無い場合は、UI/Canvas を作るなどして生成させてください。  
 3. 00Kamishiro/ScrollEventCalender/Prefabs 内のお好みのプレハブをシーン内に設置してください。  
 

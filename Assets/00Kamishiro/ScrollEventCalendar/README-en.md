@@ -12,7 +12,7 @@ This is an asset to display [VRChat Event Calendar][11] in VRChat. Many events c
 Please download the latest version from the [Release][21] page.  
 
 ## How to install
-1. Please import the latest versions of VrCSDK3 and UdonSharp beforehand.
+1. Please import the latest versions of VRCSDK3 and UdonSharp beforehand.
 2. If you don't have EventSystem in your scene, please create UI/Canvas to generate it. 
 3. Place your favorite prefabs in 00Kamishiro/ScrollEventCalender/Prefabs in your scene.  
 
