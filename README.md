@@ -1,1 +1,1 @@
-E:/Documents/VRChat/AK56-EventCalendar/Assets/00Kamishiro/UDONEventCalendar/README-ja.md
+./Assets/00Kamishiro/UDONEventCalendar/README-ja.md
