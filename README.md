@@ -1,1 +1,1 @@
-./Assets/00Kamishiro/ScrollEventCalendar/README-ja.md
+E:/Documents/VRChat/AK56-EventCalendar/Assets/00Kamishiro/UDONEventCalendar/README-ja.md
