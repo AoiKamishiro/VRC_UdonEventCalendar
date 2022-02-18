@@ -3,7 +3,7 @@
 
 version 1.0.4 
 
-[VRChatPrefabs][https://github.com/AoiKamishiro/VRChatPrefabs]のリポジトリへ統合されました。最新版はそちらをご確認ください。
+[VRChatPrefabs](https://github.com/AoiKamishiro/VRChatPrefabs) のリポジトリへ統合されました。最新版はそちらをご確認ください。
 
 
 [English Readme][00]
